@@ -1,0 +1,3 @@
+flask
+tinydb
+Flask-Cors==1.10.3

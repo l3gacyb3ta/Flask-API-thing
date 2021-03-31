@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Flask Template</title>
+    <style>
+      form {
+        margin: 0 auto;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      input {
+        font-size: 28px;
+        margin-top: 20px;
+      }
+    </style>
+	</head>
+	<body>
+    <ul>
+		{%for i in range(0, leng)%} 
+  
+      <li>{{data[i]['name']}}</li> 
+    {%endfor%}
+    </ul> 
+	</body>
+</html>
